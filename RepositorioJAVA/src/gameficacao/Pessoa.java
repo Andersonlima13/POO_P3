@@ -6,29 +6,9 @@ package gameficacao;
 
 
 
-public class Metodos {
+public class Pessoa {
 	boolean status; 
 	int pontuacao;
-	
-	public void saude(int pontos, boolean status){
-		this.status = status;
-		if(status == true) {
-			pontuacao = pontuacao + pontos;
-		}else {
-			pontuacao = pontuacao - pontos;
-		}
-	public void dormir(int quantidade) {
-			
-		
-	}
-	
-	public void exercitou(int tempo) {
-		
-	}
-	
-	public void estudo(int tempo, int conteudos) {
-		
-	}
 	
 	
 		
